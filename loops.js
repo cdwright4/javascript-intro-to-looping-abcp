@@ -8,8 +8,3 @@ function forLoop(array) {
     return array;
   }
   
-
-for (var i=0; i<10; i++) {
-  console.log("This is number" + i + " that I am going to print");
-  
-}

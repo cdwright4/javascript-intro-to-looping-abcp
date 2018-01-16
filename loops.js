@@ -13,7 +13,7 @@ function forLoop(array) {
   
 function whileLoop (num1) {
   
-  while (num1 !== 0) { 
+  while (num1  0) { 
     if (num1===0) {return 'done';}
     console.log(--num1)
   }

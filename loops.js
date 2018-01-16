@@ -5,7 +5,7 @@ function forLoop(array) {
       
     }
     else {
-      array[i] = "I am ${i} strange loops.";
+      array[i] = `I am ${i} strange loops.`;
     }
   }
     return array;
@@ -18,3 +18,5 @@ function whileLoop (num1) {
   }
   
 }
+
+//`Happy holidays, ${name}!`

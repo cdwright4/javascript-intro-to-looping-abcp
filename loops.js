@@ -20,8 +20,19 @@ function whileLoop (num1) {
   
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+
 function doWhileLoop (array) {
   
   var i = 0;
   
+  do {
+    array.pop();
+    
+  } while (maybeTrue());
+  
 }
+

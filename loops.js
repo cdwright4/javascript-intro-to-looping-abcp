@@ -8,3 +8,10 @@ function forLoop(array) {
     return array;
   }
   
+for whileLoop (num1) {
+  
+  while (num1 != 0) { 
+    console.log(--num1)
+  }
+  
+}
